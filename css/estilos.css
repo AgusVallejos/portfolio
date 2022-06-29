@@ -181,10 +181,37 @@ main p {
 
  .agustin {
     border-radius: 50%;
+    height: 300px;
  }
 
  #sobre-mi p {
     font-size: 16px;
+ }
+
+ #sobre-mi h1 {
+    font-size: 36px;
+ }
+
+ #stack-tecnologico {
+    background-color: #E20000;
+    color: white;
+ }
+
+ #stack-tecnologico h2 {
+    font-size: 24px;
+    color: white;
+ }
+
+ .lenguajes h3 {
+    font-size: 14px;
+    color: black;
+    font-weight: 300;
+ }
+
+ .lenguajes {
+    background-color: white;
+    border-radius: 3%;
+    height: 190px;
  }
 
 
