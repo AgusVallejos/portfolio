@@ -211,7 +211,31 @@ main p {
  .lenguajes {
     background-color: white;
     border-radius: 3%;
-    height: 
+    height: 190px;
+ }
+
+ .maletin {
+    color: #370A6D;
+    font-size: 24px;
+    font-weight: 400;
+ }
+
+ #experiencia h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #6A6A6A;
+ }
+
+ #experiencia h4 {
+    color: #370A6D;
+    font-size: 17px;
+    text-transform: uppercase;
+ }
+
+ #experiencia h5 {
+    font-size: 14px;
+    color: #6A6A6A;
+    
  }
 
 
