@@ -129,7 +129,7 @@ main p {
     border-radius: 120px;
 }
 
-#proyectos footer .fa-github {
+#proyectos footer .fa-github, #sobre-mi footer .fa-github {
     color:#E20000;
 }
 
@@ -138,7 +138,12 @@ main p {
     background-color: #E20000;
 }
 
-#proyectos footer a {
+#sobre-mi footer .fa-linkedin-in {
+    color: red;
+    background-color: white;;
+}
+
+#proyectos footer a, #sobre-mi footer a {
     color:rgba(240, 47, 23, 1);
     text-decoration: underline;
 }
@@ -232,31 +237,42 @@ main p {
     text-transform: uppercase;
  }
 
- #experiencia h5, #formacion h5 {
+ #experiencia h5, #formacion h5, #cursos h5 {
     font-size: 14px;
     color: #6A6A6A;
     
  }
 
- #formacion h2 {
+ #formacion h2, #cursos h2 {
     color: red;
     font-size: 24px;
     font-weight: 400;
  }
 
-#formacion h3 {
+#formacion h3, #cursos h3 {
     color: #6A6A6A;
     font-size: 18px;
     font-weight: 600;
 }
 
-#formacion h4 {
+#formacion h4, #cursos h4 {
     color: #E20000;
     font-size: 17px;
 }
 
+#formacion a {
+    text-decoration: none;
+    color:#6a6a6a
+}
 
+.baw {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
 
+.baw:hover {
+    filter: grayscale(0%);
+}
 
 
 
