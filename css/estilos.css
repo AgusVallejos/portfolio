@@ -285,7 +285,11 @@ main p {
 
 #hobbies .card {
     background-color: #370A6D;
-    border-radius: 5px;
+    border-radius: 15px;
+}
+
+.card-idiomas {
+    border-radius: 15px;
 }
 
 #hobbies h2 {
