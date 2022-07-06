@@ -5,8 +5,8 @@ body {
 }
 
 nav .active {
-border: 1px solid #E20000;
-border-radius: 20px;
+    border: 1px solid #E20000;
+    border-radius: 20px;
 }
 
 #contacto {
@@ -16,7 +16,7 @@ border-radius: 20px;
 
 #proyectos {
     background-image: url(../images/fondo-proyectos.png);
-    background-size:cover;
+    background-size: cover;
 }
 
 #inicio {
@@ -69,7 +69,7 @@ p {
     padding: 8px 0 15px 0;
     right: 80px;
     position: fixed;
-   bottom: 0px;
+    bottom: 0px;
 }
 
 footer .fa-whatsapp {
@@ -91,6 +91,7 @@ footer .fa-github {
     font-size: 30px;
     color: white;
 }
+
 footer .fa-linkedin-in {
     color: #ff4a49;
     background-color: white;
@@ -109,7 +110,7 @@ main p {
 }
 
 .color-gradiente {
-    background: rgba(184, 37, 20, 1);
+    background: linear-gradient(to right, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
     height: 50px;
 }
 
@@ -125,12 +126,13 @@ main p {
 .btn-rojo {
     color: white;
     font-weight: 300;
-    background-color:#E20000;
+    background-color: #E20000;
     border-radius: 120px;
 }
 
-#proyectos footer .fa-github, #sobre-mi footer .fa-github {
-    color:#E20000;
+#proyectos footer .fa-github,
+#sobre-mi footer .fa-github {
+    color: #E20000;
 }
 
 #proyectos footer .fa-linkedin-in {
@@ -140,11 +142,13 @@ main p {
 
 #sobre-mi footer .fa-linkedin-in {
     color: red;
-    background-color: white;;
+    background-color: white;
+    ;
 }
 
-#proyectos footer a, #sobre-mi footer a {
-    color:rgba(240, 47, 23, 1);
+#proyectos footer a,
+#sobre-mi footer a {
+    color: rgba(240, 47, 23, 1);
     text-decoration: underline;
 }
 
@@ -153,116 +157,122 @@ main p {
 }
 
 .cof {
-    color:rgba(240, 47, 23, 1);
+    color: rgba(240, 47, 23, 1);
     text-decoration: none;
 }
 
- #inicio p{
+#inicio p {
     color: white;
     font-size: 17px;
     font-weight: 600;
     border: 1px white solid;
     border-radius: 50px;
- }
+}
 
- .btn-know {
+.btn-know {
     border-radius: 15px;
- }
+}
 
- nav li{
+nav li {
     padding-left: 20px;
- }
+}
 
- .div-cohete {
+.div-cohete {
     height: 410px;
- }
- .cohete {
+}
+
+.cohete {
     height: 400px;
- }
+}
 
- .cohete:hover {
+.cohete:hover {
     height: 410px;
- }
+}
 
- .agustin {
+.agustin {
     border-radius: 50%;
- }
-   
+}
 
- #sobre-mi p {
+
+#sobre-mi p {
     font-size: 16px;
- }
+}
 
- #sobre-mi h1 {
+#sobre-mi h1 {
     font-size: 36px;
- }
+}
 
- #stack-tecnologico {
+#stack-tecnologico {
     background-color: #E20000;
     color: white;
- }
+}
 
- #stack-tecnologico h2 {
+#stack-tecnologico h2 {
     font-size: 24px;
     color: white;
- }
+}
 
- .lenguajes h3 {
+.lenguajes h3 {
     font-size: 14px;
     color: black;
     font-weight: 300;
- }
+}
 
- .lenguajes {
+.lenguajes {
     background-color: white;
     border-radius: 3%;
     height: 190px;
- }
+}
 
- .maletin {
+.maletin {
     color: #370A6D;
     font-size: 24px;
     font-weight: 400;
- }
+}
 
- #experiencia h3 {
+#experiencia h3 {
     font-size: 18px;
     font-weight: 600;
     color: #6A6A6A;
- }
+}
 
- #experiencia h4 {
+#experiencia h4 {
     color: #370A6D;
     font-size: 17px;
     text-transform: uppercase;
- }
+}
 
- #experiencia h5, #formacion h5, #cursos h5 {
+#experiencia h5,
+#formacion h5,
+#cursos h5 {
     font-size: 14px;
     color: #6A6A6A;
-    
- }
 
- #formacion h2, #cursos h2 {
+}
+
+#formacion h2,
+#cursos h2 {
     color: red;
     font-size: 24px;
     font-weight: 400;
- }
+}
 
-#formacion h3, #cursos h3 {
+#formacion h3,
+#cursos h3 {
     color: #6A6A6A;
     font-size: 18px;
     font-weight: 600;
 }
 
-#formacion h4, #cursos h4 {
+#formacion h4,
+#cursos h4 {
     color: #E20000;
     font-size: 17px;
 }
 
 #formacion a {
     text-decoration: none;
-    color:#6a6a6a
+    color: #6a6a6a
 }
 
 .baw {
@@ -301,8 +311,53 @@ main p {
     list-style-type: none;
 }
 
+#contacto input {
+    border-radius: 15px;
+}
+
+#contacto textarea {
+    border-radius: 15px;
+}
+
+@media (max-width: 750px) {
 
 
+    #inicio p {
+        color: #E20000;
+        font-size: 16px;
+        border: #E20000 1px solid;
+        padding: 10px;
+    }
+
+    #inicio footer,
+    #contacto footer {
+        color: #E20000
+    }
+
+    #inicio footer a,
+    #contacto footer a {
+        color: #E20000
+    }
+
+    #inicio .fa-github,
+    #contacto .fa-github {
+        color: red;
+    }
 
 
+    #contacto,
+    #inicio {
+        background-image: url("../images/fondo-proyectos.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
 
+    #proyectos {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    #contacto textarea {
+        height: 150px;
+    }
+}
