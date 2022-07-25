@@ -14,6 +14,11 @@ nav .active {
     background-size: cover;
 }
 
+#envio {
+    background-image: url(../images/fondo-contacto.png);
+    background-size: cover;
+}
+
 #proyectos {
     background-image: url(../images/fondo-proyectos.png);
     background-size: cover;
